@@ -72,9 +72,9 @@ terrains:
       - name: AIRBASE17
         width: 20
         length: 20
-      - name: AIRBASE18
-        width: 20
-        length: 20
+      #- name: AIRBASE18
+      #  width: 20
+      #  length: 20
       - name: AIRBASE19
         width: 20
         length: 20
@@ -97,9 +97,6 @@ terrains:
         length: 10
         groups: 4
       - name: AIRBASE30
-        width: 10
-        length: 10
-      - name: AIRBASE31
         width: 10
         length: 10
 
