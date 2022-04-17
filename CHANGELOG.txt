@@ -1,3 +1,12 @@
+16-April-2022: CMP Vanilla v0.7
+- Tested with OXCE v7.5.3
+- New terrains:
+	- Corn Farm, by efrenespartano, Luke83 and Solarius Scorch
+	- Arctic Outpost, by Solarius Scorch, Dioxine and Brain_322
+- Added new terrains to Geoscape
+- Improved and expanded IDT_AIRPORT into Military Airport, added new mapblocks
+- Updated credits
+
 23-Jun-2020: CMP Vanilla v0.4
 - Tested with OXCE v5.6.3
 - Tested with OXC git master 2020-06-14-2342
