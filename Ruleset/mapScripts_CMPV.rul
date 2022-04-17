@@ -25,9 +25,19 @@ mapScripts:
     commands:
     - type: addUFO
     - type: addCraft
+    - type: addBlock
+      size: 2
+      executions: 3
+    - type: addLine
+      #label: 2
+      #conditionals: -1
+      executionChances: 65
+      direction: horizontal
+      rects:
+        - [1, 1, 1, 4]
     - type: fillArea
-      blocks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-      maxUses: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 1, 1, 2]
+      groups: [0, 1, 5, 6, 7]
+      freqs: [2, 2, 2, 3, 4]
   - type: DESERT
     commands:
     - type: addUFO
@@ -85,7 +95,7 @@ mapScripts:
     - type: addBlock
       groups: 2
     - type: fillArea
-  - type: ALIENBASE
+  - type: ALIENBASE_VANILLA
     commands:
     - type: addBlock
       groups: 2
@@ -116,7 +126,7 @@ mapScripts:
           - type: floor
             set: 1
             entry: 63
-  - type: BOSSBATTLE
+  - type: BOSSBATTLE_VANILLA
     commands:
     - type: addBlock
       groups: 2
@@ -440,36 +450,6 @@ mapScripts:
       blocks: [3, 4, 5, 6, 7, 8, 13, 14, 15, 16, 17]
       freqs: [2, 2, 2, 2, 2, 2, 1, 2, 2, 2, 2]
       maxUses: [1, 1, 1, 1, 1, 2, 1, 2, 2, 1, 2]
-    - type: fillArea
-
-  - type: RICE_FARM_SCRIPT
-    commands:
-    - type: addUFO
-      executions: 1
-      groups: 1
-    - type: addCraft
-      executions: 1
-      groups: 1
-    - type: addBlock
-      # executionChances: 50
-      size: 2
-      executions: 1
-    - type: addBlock
-      # executionChances: 50
-      size: [2, 1]
-      executions: 2
-    - type: addBlock
-      # executionChances: 50
-      size: [1, 2]
-      executions: 2
-    - type: addBlock
-      executions: 2
-#      groups: 4
-    - type: addBlock
-      executions: 2
-      groups: 5
-    - type: addBlock
-      executions: 2
     - type: fillArea
 
   - type: S_IDT_VILLAGE
