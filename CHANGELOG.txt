@@ -1,3 +1,6 @@
+X-May-2022: CMP Vanilla v0.7.2
+- Fixed issue with crashing tile on Corn Farm terrain, reported by Fegelein, solution provided by Meridian
+
 17-April-2022: CMP Vanilla v0.7f
 - Solved issue with unused code, reported by nickkeane
 
