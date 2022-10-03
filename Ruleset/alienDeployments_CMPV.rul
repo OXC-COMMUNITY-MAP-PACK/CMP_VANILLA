@@ -161,6 +161,8 @@ alienDeployments:
       - IDT_VILLAGE
       - RURAL
       - IDT_AIRPORT
+      - TJURBAN
+      - TMURBAN
     alert: STR_ALIENS_TERRORISE
     alertBackground: BACK03.SCR
     briefing:
